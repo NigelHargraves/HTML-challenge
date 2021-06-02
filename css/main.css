@@ -1,0 +1,42 @@
+table {
+    table-layout: auto;
+    width: 50%;
+    border: 3px solid #830c55;
+    text-align: center;
+}
+
+.thead {
+    border-collapse: separate;
+}
+
+thead {
+    font-size: 20px;
+    color: white;
+    background-image: url(https://cdn.glitch.com/8b1beacc-937c-4072-93d6-4ae825ab1a7a%2Fleopardskin.jpg?1527763317245);
+    font-family: "Rock Salt";
+}
+
+tbody {
+    background-color: #ff33cc;
+    color: black;
+    font-family: "Helvetica Neu";
+}
+
+tr:nth-child(even) {
+    background-color: #e495e4;
+}
+
+tfoot {
+    font-size: 20px;
+    color: white;
+    background-image: url(https://cdn.glitch.com/8b1beacc-937c-4072-93d6-4ae825ab1a7a%2Fleopardskin.jpg?1527763317245);
+    font-family: "Rock Salt";
+}
+
+.alignright {
+    text-align: right;
+}
+
+.alignleft {
+    text-align: left;
+}
