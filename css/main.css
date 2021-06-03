@@ -1,19 +1,22 @@
-table {
-    table-layout: auto;
-    width: 50%;
-    border: 3px solid #830c55;
+.container table {
+    border-collapse: collapse;
+    border: 2px solid rgb(160, 9, 115);
+    padding: 10px;
+    table-layout: fixed;
+    width: 100%;
     text-align: center;
 }
 
-.thead {
-    border-collapse: separate;
+th {
+    border: 2px solid rgb(160, 9, 115);
+    padding: 10px;
 }
 
 thead {
     font-size: 20px;
     color: white;
-    background-image: url(https://cdn.glitch.com/8b1beacc-937c-4072-93d6-4ae825ab1a7a%2Fleopardskin.jpg?1527763317245);
     font-family: "Rock Salt";
+    background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(https://cdn.glitch.com/8b1beacc-937c-4072-93d6-4ae825ab1a7a%2Fleopardskin.jpg?1527763317245);
 }
 
 tbody {
@@ -29,8 +32,8 @@ tr:nth-child(even) {
 tfoot {
     font-size: 20px;
     color: white;
-    background-image: url(https://cdn.glitch.com/8b1beacc-937c-4072-93d6-4ae825ab1a7a%2Fleopardskin.jpg?1527763317245);
     font-family: "Rock Salt";
+    background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(https://cdn.glitch.com/8b1beacc-937c-4072-93d6-4ae825ab1a7a%2Fleopardskin.jpg?1527763317245);
 }
 
 .alignright {
@@ -39,4 +42,9 @@ tfoot {
 
 .alignleft {
     text-align: left;
+}
+
+p {
+    font-family: "Rock Salt";
+    text-align: right;
 }
